@@ -1,7 +1,7 @@
 `openhab3` 
 # openhab3 pihole Integration
 
-# Requieremtns
+# Requirements
 
 1. Working [openhab3](https://www.openhab.org/) setup
 1. [HTTP-Binding](https://www.openhab.org/addons/bindings/http/) installed
