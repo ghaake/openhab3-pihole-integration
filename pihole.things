@@ -6,6 +6,7 @@ Thing http:url:piholenew "PiHole" [ baseURL="http://192.168.178.116/admin/api.ph
         Type string : AdsBlockedToday       "ADS Blocked Today"        [ stateTransformation="JSONPATH:$.ads_blocked_today" ]
         Type string : AdsPercentageToday    "ADS Percentage Today"     [ stateTransformation="JSONPATH:$.ads_percentage_today" ]
         Type string : UniqueDomains         "Unique Domains"           [ stateTransformation="JSONPATH:$.unique_domains" ]
+        Type string : QueriesForwarded      "Queries QueriesForwarded" [ stateTransformation="JSONPATH:$.queries_forwarded" ]
         Type string : QueriesCached         "Queries Cached"           [ stateTransformation="JSONPATH:$.queries_cached" ]
         Type string : UniqueClients         "Unique Clients"           [ stateTransformation="JSONPATH:$.unique_clients" ]
         Type string : ClientsEverSeen       "Clients ever seen"        [ stateTransformation="JSONPATH:$.clients_ever_seen" ]
