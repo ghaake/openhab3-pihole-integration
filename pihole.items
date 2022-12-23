@@ -4,7 +4,7 @@ Number   PiHole_DnsQueriesToday       "DNS queries today [%d]"          <chart> 
 Number   PiHole_AdsBlockedToday       "Ads blocked today [%d]"          <keyring>   (gPiHole)   { channel="http:url:piholenew:AdsBlockedToday" }
 Number   PiHole_AdsPercentageToday    "Ads percentage today [%.2f %%]"  <keyring>   (gPiHole)   { channel="http:url:piholenew:AdsPercentageToday" }
 Number   PiHole_UniqueDomains         "Unique domains [%d]"             <network>   (gPiHole)   { channel="http:url:piholenew:UniqueDomains" }
-Number   PiHole_QueriesForwarded      "Queries forwarded [%d]"         <wind>      (gPiHole)   { channel="http:url:piholenew:QueriesForwared" }
+Number   PiHole_QueriesForwarded      "Queries forwarded [%d]"         <wind>      (gPiHole)   { channel="http:url:piholenew:QueriesForwarded" }
 Number   PiHole_QueriesCached         "Queries cached [%d]"             <wind>      (gPiHole)   { channel="http:url:piholenew:QueriesCached" }
 Number   PiHole_ClientsEverSeen       "Clients ever seen [%d]"          <screen>    (gPiHole)   { channel="http:url:piholenew:ClientsEverSeen" }
 Number   PiHole_UniqueClients         "Unique clients [%d]"             <screen>    (gPiHole)   { channel="http:url:piholenew:UniqueClients" }
