@@ -39,7 +39,7 @@ Original PiHole BlogPost: [PiHole BLog Announcement](https://pi-hole.net/blog/20
 
 
 ```
-Thing http:url:piHole "PiHole" [ baseURL="http://{piHoleUrl}/admin/api.php?summary&auth={RawApiToken}", refresh=36000] {
+Thing http:url:piholenew "PiHole" [ baseURL="http://{piHoleUrl}/admin/api.php?summary&auth={RawApiToken}", refresh=36000] {
     Channels:
         Type string : DomainsBlocked        "Domains Blocked"          [ stateTransformation="JSONPATH:$.domains_being_blocked" ]
         Type string : QueriesToday          "Queries Today"            [ stateTransformation="JSONPATH:$.dns_queries_today" ]
